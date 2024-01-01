@@ -4,6 +4,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 1. Particles, lots of them
 
+![](/day01/1.png)
+
 ## 2. No palettes
 
 ## 3. Droste effect
@@ -65,4 +67,3 @@ If you like generative art, you probably have some photos on your phone of cool 
 ## 30. Shaders
 
 ## 31. Generative music / Generative audio / Generative sound
-
