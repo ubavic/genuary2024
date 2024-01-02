@@ -8,6 +8,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 2. No palettes
 
+![](/day02/1.png)
+
 ## 3. Droste effect
 
 ## 4. Pixels
