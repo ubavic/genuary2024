@@ -10,6 +10,10 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ![](/day02/1.png)
 
+![](/day02/5.png)
+
+![](/day02/8.png)
+
 ## 3. Droste effect
 
 ## 4. Pixels
