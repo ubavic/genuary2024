@@ -16,7 +16,7 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 3. Droste effect
 
-![](/day03/1.mp4)
+![](/day03/1.gif)
 
 ## 4. Pixels
 
