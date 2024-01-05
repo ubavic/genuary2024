@@ -20,6 +20,10 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 4. Pixels
 
+![](/day04/1.png)
+
+![](/day04/2.png)
+
 ## 5. In the style of Vera Molnár
 
 ## 6. Screensaver
