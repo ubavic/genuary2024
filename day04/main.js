@@ -26,9 +26,9 @@ function setup() {
           let g = pixels[y * img.width * 4 + x * 4 + 1];
           let b = pixels[y * img.width * 4 + x * 4 + 2];
           let [H, S, V] = hsv(r, g, b);
-          fill(H, S, 0.2 + 0.8 * V);
+          fill(H, S, V);
           if (random() < 0.6) {
-            //continue;
+            continue;
           }
           circle(x + pad + 10, y + pad + 10, R); // ?
         }
