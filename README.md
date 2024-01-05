@@ -16,6 +16,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 3. Droste effect
 
+![](/day03/1.mp4)
+
 ## 4. Pixels
 
 ## 5. In the style of Vera Molnár
