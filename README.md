@@ -30,6 +30,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 6. Screensaver
 
+![](/day06/1.gif)
+
 ## 7. Progress bar / indicator / loading animation
 
 ## 8. Chaotic system
