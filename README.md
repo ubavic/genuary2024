@@ -26,6 +26,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 5. In the style of Vera Molnár
 
+![](/day05/1.png)
+
 ## 6. Screensaver
 
 ## 7. Progress bar / indicator / loading animation
