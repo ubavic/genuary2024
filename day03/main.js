@@ -1,14 +1,6 @@
 const w = 600;
 const h = 600;
 
-let braids = [];
-const numberOfGenerations = 45;
-const numberOfBraids = 20;
-const xPadding = 20;
-const yPadding = 20;
-const y = (n) => (n / numberOfGenerations) * (h - 2 * yPadding) + yPadding;
-const x = (n) => (n / (numberOfBraids - 1)) * (w - 2 * xPadding) + xPadding;
-
 let rands = [];
 let curRand = [];
 
@@ -52,15 +44,15 @@ function draw() {
   t = t % 8;
   let s = t + 2;
   const zoomF = pow(2, t);
+
   translate(w / 2, h / 2);
   scale((zoomF * w) / 2);
   rotate((PI * t) / 4);
   background(210, 0, 100);
-  fill(20, 20, 90);
-  noStroke();
-  noFill();
+
   stroke(0, 0, 0);
   strokeWeight(((1 / zoomF) * 8) / w);
+
   line(0, -1, 0, 1);
   line(-1, 0, 1, 0);
   let depth = 10;
