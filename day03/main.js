@@ -10,17 +10,17 @@ const y = (n) => (n / numberOfGenerations) * (h - 2 * yPadding) + yPadding;
 const x = (n) => (n / (numberOfBraids - 1)) * (w - 2 * xPadding) + xPadding;
 
 let rands = [];
-let curRand = 0;
+let curRand = [];
 
 const colors = [
   [62, 80, 100],
   [0, 80, 90],
   [200, 80, 90],
-  [0, 0, 100],
-  [0, 0, 100],
-  [0, 0, 100],
-  [0, 0, 100],
-  [0, 0, 10],
+  [10, 0, 100],
+  [50, 0, 100],
+  [150, 0, 100],
+  [200, 0, 100],
+  [250, 0, 10],
 ];
 
 function setup() {
@@ -28,26 +28,33 @@ function setup() {
   colorMode(HSB);
   //noLoop();
 
-  let a = 4 * 3 * 2;
-  for (let i = 0; i < a; i++) {
-    rands.push(random());
+  const levels = 21;
+  for (let i = 0; i < levels; i++) {
+    let r = [];
+    for (let j = 0; j < 12; j++) {
+      r.push(random());
+    }
+    rands.push(r);
+    curRand.push(0);
   }
 }
 
-function getRandom() {
-  curRand++;
-  let j = curRand % rands.length;
-  return rands[j];
+function getRandom(level) {
+  level = level % 4;
+  curRand[level] += 1;
+  let j = curRand[level] % rands[level].length;
+  return rands[level][j];
 }
 
 function draw() {
-  curRand = 0;
+  curRand = curRand.map(() => 0);
   let t = millis() / 1000;
   t = t % 8;
   let s = t + 2;
   const zoomF = pow(2, t);
   translate(w / 2, h / 2);
   scale((zoomF * w) / 2);
+  rotate((PI * t) / 4);
   background(210, 0, 100);
   fill(20, 20, 90);
   noStroke();
@@ -72,7 +79,8 @@ function drawSquare(x, y, side, depth, t, seed) {
     const d = side / 2;
 
     let f = t > 2 ? 1 : t - 1;
-    let getRandomColor = () => colors[Math.floor(getRandom() * colors.length)];
+    let getRandomColor = () =>
+      colors[Math.floor(getRandom(depth) * colors.length)];
 
     stroke(0, 0, 0, f * 1);
     fill(...getRandomColor(), (f - 0.4) * 1);
