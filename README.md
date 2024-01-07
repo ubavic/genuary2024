@@ -34,6 +34,10 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 7. Progress bar / indicator / loading animation
 
+![](/day07/1.gif)
+
+![](/day07/2.gif)
+
 ## 8. Chaotic system
 
 ## 9. ASCII
