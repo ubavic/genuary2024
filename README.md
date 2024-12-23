@@ -40,6 +40,8 @@ I have also participated in the [Genuary 2022](https://github.com/ubavic/genuary
 
 ## 8. Chaotic system
 
+![](/day08/1.png)
+
 ## 9. ASCII
 
 ## 10. Hexagonal
